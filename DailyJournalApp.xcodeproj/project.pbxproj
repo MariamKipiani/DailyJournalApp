@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		CE3BB9302B337A47006AEB90 /* DailyJournalAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB92F2B337A47006AEB90 /* DailyJournalAppApp.swift */; };
-		CE3BB9322B337A47006AEB90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB9312B337A47006AEB90 /* ContentView.swift */; };
 		CE3BB9342B337A5F006AEB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3BB9332B337A5F006AEB90 /* Assets.xcassets */; };
 		CE3BB9372B337A5F006AEB90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3BB9362B337A5F006AEB90 /* Preview Assets.xcassets */; };
+		CE3BB93E2B3450D9006AEB90 /* JournalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB93D2B3450D9006AEB90 /* JournalModel.swift */; };
+		CE3BB9402B345134006AEB90 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB93F2B345134006AEB90 /* NewsListView.swift */; };
+		CE3BB9422B345150006AEB90 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB9412B345150006AEB90 /* NewsListViewModel.swift */; };
+		CE3BB9442B345179006AEB90 /* AddNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB9432B345179006AEB90 /* AddNewsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE3BB92C2B337A47006AEB90 /* DailyJournalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyJournalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3BB92F2B337A47006AEB90 /* DailyJournalAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyJournalAppApp.swift; sourceTree = "<group>"; };
-		CE3BB9312B337A47006AEB90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE3BB9332B337A5F006AEB90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3BB9362B337A5F006AEB90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE3BB93D2B3450D9006AEB90 /* JournalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalModel.swift; sourceTree = "<group>"; };
+		CE3BB93F2B345134006AEB90 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		CE3BB9412B345150006AEB90 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
+		CE3BB9432B345179006AEB90 /* AddNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				CE3BB92F2B337A47006AEB90 /* DailyJournalAppApp.swift */,
-				CE3BB9312B337A47006AEB90 /* ContentView.swift */,
+				CE3BB93D2B3450D9006AEB90 /* JournalModel.swift */,
+				CE3BB93F2B345134006AEB90 /* NewsListView.swift */,
+				CE3BB9412B345150006AEB90 /* NewsListViewModel.swift */,
+				CE3BB9432B345179006AEB90 /* AddNewsView.swift */,
 				CE3BB9332B337A5F006AEB90 /* Assets.xcassets */,
 				CE3BB9352B337A5F006AEB90 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3BB9322B337A47006AEB90 /* ContentView.swift in Sources */,
+				CE3BB93E2B3450D9006AEB90 /* JournalModel.swift in Sources */,
+				CE3BB9402B345134006AEB90 /* NewsListView.swift in Sources */,
+				CE3BB9442B345179006AEB90 /* AddNewsView.swift in Sources */,
 				CE3BB9302B337A47006AEB90 /* DailyJournalAppApp.swift in Sources */,
+				CE3BB9422B345150006AEB90 /* NewsListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
